@@ -20,6 +20,7 @@ libOmxAacEnc-def += -DAUDIOV2
 #             Make the Shared library (libOmxAacEnc)
 # ---------------------------------------------------------------------------------
 
+TARGET_SPECIFIC_HEADER_PATH := hardware/qcom/media/mm-core/inc
 include $(CLEAR_VARS)
 
 libOmxAacEnc-inc       := $(LOCAL_PATH)/inc

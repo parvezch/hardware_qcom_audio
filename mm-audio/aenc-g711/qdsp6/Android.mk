@@ -20,6 +20,7 @@ libOmxG711Enc-def += -DAUDIOV2
 #             Make the Shared library (libOmxG711Enc)
 # ---------------------------------------------------------------------------------
 
+TARGET_SPECIFIC_HEADER_PATH := hardware/qcom/media/mm-core/inc
 include $(CLEAR_VARS)
 
 libOmxG711Enc-inc       := $(LOCAL_PATH)/inc

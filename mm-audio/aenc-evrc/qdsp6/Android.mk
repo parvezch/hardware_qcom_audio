@@ -20,6 +20,7 @@ libOmxEvrcEnc-def += -DAUDIOV2
 #             Make the Shared library (libOmxEvrcEnc)
 # ---------------------------------------------------------------------------------
 
+TARGET_SPECIFIC_HEADER_PATH := hardware/qcom/media/mm-core/inc
 include $(CLEAR_VARS)
 
 libOmxEvrcEnc-inc       := $(LOCAL_PATH)/inc

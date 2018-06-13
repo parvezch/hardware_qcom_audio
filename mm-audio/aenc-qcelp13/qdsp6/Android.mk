@@ -20,6 +20,7 @@ libOmxQcelp13Enc-def += -DAUDIOV2
 #             Make the Shared library (libOmxQcelp13Enc)
 # ---------------------------------------------------------------------------------
 
+TARGET_SPECIFIC_HEADER_PATH := hardware/qcom/media/mm-core/inc
 include $(CLEAR_VARS)
 
 libOmxQcelp13Enc-inc       := $(LOCAL_PATH)/inc
